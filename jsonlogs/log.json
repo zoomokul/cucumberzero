@@ -1,0 +1,90 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;login-user-with-correct-email-and-password",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Login user with correct email and password",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I navigate to automation exercise website",
+            "result": {
+              "duration": 16123000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 4,
+            "name": "I enter login credentials",
+            "result": {
+              "duration": 31096000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I should be logged in",
+            "result": {
+              "duration": 225000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Login",
+    "uri": "cypress\\e2e\\features\\login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "test;test-test",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "test test",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 3,
+            "name": "merhaba",
+            "result": {
+              "duration": 101000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "test",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "test",
+    "uri": "cypress\\e2e\\features\\test.feature"
+  }
+]
